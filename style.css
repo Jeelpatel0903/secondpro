@@ -18,6 +18,7 @@
     align-items: center;
     height: 100%;
     transform-style: preserve-3d;
+    z-index: -1;
 }
 
 .background, .foreground{
@@ -33,4 +34,12 @@
 
 .foreground{
     transform: translateZ(-20px) scale(3);
+}
+
+h1{
+    position: absolute;
+    color: aliceblue;
+    font-size: 10rem;
+    top: 50px;
+
 }
